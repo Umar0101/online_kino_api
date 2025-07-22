@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django_filters',
 
     #apps
-
+    'account'
 ]
 
 MIDDLEWARE = [
@@ -142,7 +142,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS   = True
 
 
-# AUTH_USER_MODEL = 'account.CustomUser'
+AUTH_USER_MODEL = 'account.CustomUser'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
